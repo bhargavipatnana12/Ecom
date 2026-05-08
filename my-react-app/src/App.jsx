@@ -2,6 +2,8 @@ import React from "react";
 import Display from "./Display";
 import CondsnlRender from "./CondsnlRender";
 import RenderingLists from "./RenderingLists";
+import ShoppingList from "./ShoppingList";
+import UpdateState from "./UpdateState";
 const App = () => {
   return (
     <div style={{ backgroundColor: "wheat" }}>
@@ -10,6 +12,8 @@ const App = () => {
       <Display />
       <CondsnlRender isLoggedIn={false} />
       <RenderingLists />
+      <ShoppingList />
+      <UpdateState />
     </div>
   );
 };
